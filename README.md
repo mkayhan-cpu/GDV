@@ -1,22 +1,31 @@
-# Globale Sicherheitsanalyse: Mordratenvisualisierung
+# 🌍 Globale Sicherheitsanalyse: Mordratenvisualisierung
 
-Dieses Repository enthält die Daten und Visualisierungen zur Analyse der globalen Sicherheitslage basierend auf Mordraten pro 100.000 Einwohner. Das zentrale Ziel des Projekts ist es, mithilfe einer detailreichen Choroplethenkarte die Sicherheitskategorien der Länder anschaulich darzustellen und einen Überblick über globale Trends zu bieten.
+Dieses Projekt wurde im Rahmen des Moduls **Grundlagen der Visualisierung** erstellt. Ziel ist es, eine datengetriebene Visualisierung zu entwickeln, die Mordraten weltweit analysiert und verständlich darstellt. Die resultierende Choroplethenkarte bietet einen visuellen Überblick über die Sicherheitslage in verschiedenen Ländern.
+
+## 📘 Projektübersicht
+
+Die Sicherheitslage eines Landes ist ein zentraler Indikator für dessen Stabilität. Mordraten, gemessen pro 100.000 Einwohner, sind eine der aussagekräftigsten Kennzahlen, um Unterschiede zwischen Ländern zu bewerten. Dieses Projekt analysiert und visualisiert diese Daten, um globale Trends zu identifizieren.
+
+Die Visualisierung wurde auf Basis der Prinzipien und Ziele des Moduls entwickelt:
+- **Auswahl geeigneter Visualisierungstypen** (LO1)
+- **Berücksichtigung visueller Wahrnehmung** (LO2)
+- **Verknüpfung von Designprinzipien mit Daten** (LO3)
+- **Anwendung der Grammar of Graphics** (LO4)
+- **Evaluierung der Visualisierung** (LO5)
 
 ## 📂 Inhalt
 
-- **`gdv.ipynb`**: Das Jupyter Notebook enthält den vollständigen Code zur Datenbereinigung, Analyse und Visualisierung. Es umfasst:
-  - Datenaufbereitung und -bereinigung
-  - Erstellung einer Choroplethenkarte basierend auf Mordraten
-  - Anwendung visueller und Designprinzipien zur Optimierung der Darstellung
-- **Visualisierungen**: 
-  - Eine Choroplethenkarte, die die Mordraten der Länder in Sicherheitskategorien einteilt: *Sehr Sicher*, *Mittel*, *Unsicher* und *Keine Daten* (markiert durch Schraffuren).
-- **Datenquellen**:
-  - Mordraten: UNODC (*Global Study on Homicide*, 2023)
-  - Bevölkerungsdaten: Weltbank (2023)
+- **`gdv.ipynb`**: Das Jupyter Notebook mit dem vollständigen Code für Datenbereinigung, Analyse und Visualisierung.  
+- **Visualisierung**: Eine Choroplethenkarte, die Länder anhand von Mordraten in Kategorien einteilt:
+  - **Sehr Sicher** (grün)
+  - **Mittel** (gelb/orange)
+  - **Unsicher** (rot)
+  - **Keine Daten** (grau mit Schraffuren)
 
-## 🎯 Zielgruppe
+## 🎯 Zielsetzung
 
-Dieses Projekt richtet sich an:
-- Politische Entscheidungsträger
-- Analysten
-- Interessierte Öffentlichkeit  
+- Bereitstellung einer informativen und ästhetischen Visualisierung für:
+  - Politische Entscheidungsträger
+  - Wissenschaftliche Analysten
+  - Die interessierte Öffentlichkeit
+- Verdeutlichung globaler Unterschiede und regionaler Trends.
